@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Bio Data"
+        android:textStyle="bold"
+        android:textColor="#5A1FC5"
+        android:textSize="30dp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="40dp"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        app:cardBackgroundColor="@color/black"
+        app:cardCornerRadius="80dp"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:src="@drawable/pro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"/>
+
+    </androidx.cardview.widget.CardView>
+
+<LinearLayout
+    android:layout_marginTop="30dp"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="Name:"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/n1"
+        android:layout_width="230dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:inputType="textEmailAddress"
+        android:hint="Enter Name"
+        android:textSize="15dp" />
+
+</LinearLayout>
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal">
+
+<TextView
+    android:layout_marginLeft="30dp"
+    android:layout_width="130dp"
+    android:layout_height="wrap_content"
+    android:textSize="18dp"
+    android:textStyle="bold"
+    android:text="Surame:"/>
+
+<EditText
+    android:id="@+id/n2"
+    android:layout_marginLeft="10dp"
+    android:layout_width="230dp"
+    android:layout_height="60dp"
+    android:textSize="15dp"
+    android:hint="Enter Surame"
+    android:inputType="textEmailAddress" />
+
+</LinearLayout>
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal">
+
+<TextView
+    android:layout_marginLeft="30dp"
+    android:layout_width="130dp"
+    android:layout_height="wrap_content"
+    android:textSize="18dp"
+    android:textStyle="bold"
+    android:text="Age:"/>
+
+<EditText
+    android:id="@+id/n3"
+    android:layout_marginLeft="10dp"
+    android:layout_width="230dp"
+    android:layout_height="60dp"
+    android:textSize="15dp"
+    android:hint="Enter Age"
+    android:inputType="textEmailAddress" />
+
+</LinearLayout>
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal">
+
+<TextView
+    android:layout_marginLeft="30dp"
+    android:layout_width="130dp"
+    android:layout_height="wrap_content"
+    android:textSize="18dp"
+    android:textStyle="bold"
+    android:text="Qualification:"/>
+
+<EditText
+    android:id="@+id/n4"
+    android:layout_marginLeft="10dp"
+    android:layout_width="230dp"
+    android:layout_height="60dp"
+    android:textSize="15dp"
+    android:hint="Enter Qualification"
+    android:inputType="textEmailAddress" />
+
+</LinearLayout>
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal">
+
+<TextView
+    android:layout_marginLeft="30dp"
+    android:layout_width="130dp"
+    android:layout_height="wrap_content"
+    android:textSize="18dp"
+    android:textStyle="bold"
+    android:text="Skill:"/>
+
+<EditText
+    android:id="@+id/n5"
+    android:layout_marginLeft="10dp"
+    android:layout_width="230dp"
+    android:layout_height="60dp"
+    android:textSize="15dp"
+    android:hint="Enter Skill"
+    android:inputType="textEmailAddress" />
+
+</LinearLayout>
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal">
+
+<TextView
+    android:layout_marginLeft="30dp"
+    android:layout_width="130dp"
+    android:layout_height="wrap_content"
+    android:textSize="18dp"
+    android:textStyle="bold"
+    android:text="Experience:"/>
+
+<EditText
+    android:id="@+id/n6"
+    android:layout_marginLeft="10dp"
+    android:layout_width="230dp"
+    android:layout_height="60dp"
+    android:textSize="15dp"
+    android:hint="Enter Experience"
+    android:inputType="textEmailAddress" />
+
+</LinearLayout>
+
+
+<Button
+android:id="@+id/j2"
+android:layout_gravity="center"
+android:layout_width="130dp"
+android:layout_height="60dp"
+android:text="SUBMIT"
+android:backgroundTint="#293CA8"
+android:textColor="@color/white"
+android:textStyle="bold"
+android:layout_marginTop="30dp"/>
+
+</LinearLayout>
